@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/kubarium/react-nbsp#readme",
   "dependencies": {
-    "react": "15.1.0"
+    "react": "^15.1.0"
   }
 }

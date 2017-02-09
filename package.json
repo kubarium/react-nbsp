@@ -1,0 +1,27 @@
+{
+  "name": "react-nbsp",
+  "version": "1.0.0",
+  "description": "Adds one or many non-breaking space characters into your JSX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kubarium/react-nbsp.git"
+  },
+  "keywords": [
+    "react",
+    "nbsp",
+    "jsx"
+  ],
+  "author": "Kumsal Obuz <iam@denizkumsal.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kubarium/react-nbsp/issues"
+  },
+  "homepage": "https://github.com/kubarium/react-nbsp#readme",
+  "dependencies": {
+    "react": "15.1.0"
+  }
+}

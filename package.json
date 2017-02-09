@@ -1,6 +1,6 @@
 {
   "name": "react-nbsp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Adds one or many non-breaking space characters into your JSX",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,29 @@
+{
+  "name": "react-nbsp",
+  "version": "0.0.0",
+  "description": "react-nbsp",
+  "main": "dist/react-nbsp.min.js",
+  "homepage": "https://github.com/kubarium/react-nbsp",
+  "authors": [
+    "Kumsal Obuz"
+  ],
+  "moduleType": [
+    "amd",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "license": "MIT",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "package.json",
+    "src",
+    "node_modules",
+    "example",
+    "test"
+  ]
+}

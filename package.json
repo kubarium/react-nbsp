@@ -1,6 +1,6 @@
 {
   "name": "react-nbsp",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Adds one or many non-breaking space characters into your JSX",
   "main": "src/ReactNbsp.js",
   "author": "Kumsal Obuz <iam@denizkumsal.com>",
@@ -50,5 +50,10 @@
     "test": "jest",
     "watch": "gulp watch:lib"
   },
-  "keywords": ["react", "nbsp", "jsx", "react-component"]
+  "keywords": [
+    "react",
+    "nbsp",
+    "jsx",
+    "react-component"
+  ]
 }

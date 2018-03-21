@@ -29,7 +29,6 @@
     "jest": "^22.4.3",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
-    "react-component-gulp-tasks": "^0.7.6",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "regenerator-runtime": "^0.11.1"
@@ -50,10 +49,5 @@
     "test": "jest",
     "watch": "gulp watch:lib"
   },
-  "keywords": [
-    "react",
-    "nbsp",
-    "jsx",
-    "react-component"
-  ]
+  "keywords": ["react", "nbsp", "jsx", "react-component"]
 }

@@ -1,6 +1,6 @@
 {
   "name": "react-nbsp",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Adds one or many non-breaking space characters into your JSX",
   "main": "build/ReactNbsp.js",
   "author": "Kumsal Obuz <iam@denizkumsal.com>",

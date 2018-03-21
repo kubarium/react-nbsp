@@ -2,7 +2,7 @@
   "name": "react-nbsp",
   "version": "1.1.1",
   "description": "Adds one or many non-breaking space characters into your JSX",
-  "main": "lib/ReactNbsp.js",
+  "main": "src/ReactNbsp.js",
   "author": "Kumsal Obuz <iam@denizkumsal.com>",
   "homepage": "https://github.com/kubarium/react-nbsp",
   "repository": {
@@ -16,14 +16,23 @@
     "classnames": "^2.1.2"
   },
   "devDependencies": {
+    "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "eslint": "^4.18.2",
     "eslint-plugin-react": "^7.7.0",
     "gulp": "^3.9.1",
+    "jest": "^22.4.3",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-component-gulp-tasks": "^0.7.6",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-test-renderer": "^16.2.0",
+    "regenerator-runtime": "^0.11.1"
   },
   "peerDependencies": {
     "react": "^16.2.0"
@@ -38,13 +47,8 @@
     "publish:site": "gulp publish:examples",
     "release": "gulp release",
     "start": "gulp dev",
-    "test": "echo \"no tests yet\" && exit 0",
+    "test": "jest",
     "watch": "gulp watch:lib"
   },
-  "keywords": [
-    "react",
-    "nbsp",
-    "jsx",
-    "react-component"
-  ]
+  "keywords": ["react", "nbsp", "jsx", "react-component"]
 }

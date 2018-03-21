@@ -1,5 +1,5 @@
-var gulp = require('gulp');
-var initGulpTasks = require('react-component-gulp-tasks');
+var gulp = require("gulp")
+var initGulpTasks = require("react-component-gulp-tasks")
 
 /**
  * Tasks are added by the react-component-gulp-tasks package
@@ -11,17 +11,11 @@ var initGulpTasks = require('react-component-gulp-tasks');
  */
 
 var taskConfig = {
-
 	component: {
-		name: 'ReactNbsp',
-		dependencies: [
-			'classnames',
-			'react',
-			'react-dom'
-		],
-		lib: 'lib'
+		name: "ReactNbsp",
+		dependencies: ["classnames", "prop-types", "react", "react-dom"],
+		lib: "lib"
 	}
+}
 
-};
-
-initGulpTasks(gulp, taskConfig);
+initGulpTasks(gulp, taskConfig)

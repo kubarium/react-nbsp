@@ -2,7 +2,7 @@
   "name": "react-nbsp",
   "version": "1.2.0",
   "description": "Adds one or many non-breaking space characters into your JSX",
-  "main": "src/ReactNbsp.js",
+  "main": "build/ReactNbsp.js",
   "author": "Kumsal Obuz <iam@denizkumsal.com>",
   "homepage": "https://github.com/kubarium/react-nbsp",
   "repository": {
@@ -13,12 +13,19 @@
     "url": "https://github.com/kubarium/react-nbsp/issues"
   },
   "dependencies": {
-    "classnames": "^2.1.2"
+    "classnames": "^2.1.2",
+    "react": "^16.2.0",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.2",
     "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
     "enzyme": "^3.3.0",
@@ -28,7 +35,6 @@
     "gulp": "^3.9.1",
     "jest": "^22.4.3",
     "prop-types": "^15.6.1",
-    "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-test-renderer": "^16.2.0",
     "regenerator-runtime": "^0.11.1"
@@ -40,14 +46,9 @@
     "react": "global:React"
   },
   "scripts": {
-    "build": "gulp clean && gulp build",
-    "examples": "gulp dev:server",
-    "lint": "eslint ./; true",
-    "publish:site": "gulp publish:examples",
-    "release": "gulp release",
+    "build": "webpack",
     "start": "gulp dev",
-    "test": "jest",
-    "watch": "gulp watch:lib"
+    "test": "jest"
   },
   "keywords": [
     "react",

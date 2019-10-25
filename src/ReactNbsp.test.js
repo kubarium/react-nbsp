@@ -27,3 +27,13 @@ test("ReactNbsp should add two space characters if count prop is 2", () => {
 
 	expect(component.text()).toEqual("Sp\u00A0\u00A0ace")
 })
+
+test("ReactNbsp should treat negative count prop as positive", () => {
+	const component = render(
+		<div>
+			Sp<ReactNbsp count={-2} />ace
+		</div>
+	)
+
+	expect(component.text()).toEqual("Sp\u00A0\u00A0ace")
+})

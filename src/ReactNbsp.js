@@ -1,12 +1,17 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import PropTypes from "prop-types";
+import React from "react";
 
 const Space = props => {
-  let count = Math.abs(props.count);
-  let space = '';
+  if (props.count < 1) {
+    return null;
+  }
+
+  let count = props.count;
+  let space = "";
   do {
-    space = space.concat('\u00A0');
+    space = space.concat("\u00A0");
   } while (--count);
+
   return <span>{space}</span>;
 };
 
